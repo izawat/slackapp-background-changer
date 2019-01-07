@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nginx:
+    build: .
+    ports:
+      - "9010:80"
+    volumes:
+      - ./images:/usr/share/nginx/html/images
