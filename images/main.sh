@@ -30,7 +30,7 @@ function main() {
   fi
 
   log "${moveFrom}を${moveTo}に移動します。"
-  \cp -f ${moveFrom} ${moveTo}
+  cp -f ${moveFrom} ${moveTo}
   log '--- end ---'
 }
 
